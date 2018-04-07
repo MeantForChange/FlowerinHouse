@@ -321,14 +321,14 @@ textarea {
 }
 
 .templatemo_sendbtn {
-	background: #e46142;
+	background: #e676a8;
 	color: #fff;
 	padding: 7px 25px;
 	float: left;
 }
 
 .templatemo_footerwrapper {
-	background: #e46142;
+	background: #e676a8;
 	color: #fff;
 	width: 100%;
 	padding: 20px 0;
@@ -599,7 +599,7 @@ Media Queries
 		height: 50px;
 	}
 	.templatemo_headerimage {
-		margin-top: 50px;
+		margin-top: 10px;
 	}
 	.templatemo_title {
 		font-size: 40px;
@@ -726,4 +726,17 @@ Media Queries
 	.slidernav a.next {
 		right: 15%;
 	}
+}
+
+.head-toolbar {
+	margin-bottom: 0;
+	height: 80px;
+}
+.head-toolbar .expand-size {
+	font-size: 20PX;
+	line-height: 80px;
+}
+
+.head-toolbar .expand-size a{
+	margin-right: 15px; color: #e676a8;
 }
